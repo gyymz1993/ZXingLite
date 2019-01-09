@@ -34,5 +34,6 @@ dependencies {
 
     implementation deps.easypermissions
     //implementation 'com.github.gyymz1993:ZXingLite:v1.0.0'
-    api project(':lib')
+    //implementation 'com.github.gyymz1993:ZXingLite:v1.0.1'
+   api project(':lib')
 }

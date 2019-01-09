@@ -20,9 +20,9 @@ allprojects {
         google()
         jcenter()
         mavenCentral()
-        repositories {
-            maven { url 'https://dl.bintray.com/jenly/maven' }
-        }
+        maven { url 'https://dl.bintray.com/jenly/maven' }
+        maven { url "https://jitpack.io" }
+        maven { url "https://maven.aliyun.com/repository/jcenter" }
     }
 }
 
