@@ -4,7 +4,6 @@ android {
     compileSdkVersion build_versions.compileSdk
     buildToolsVersion build_versions.buildTools
     defaultConfig {
-        applicationId "com.king.zxing.app"
         minSdkVersion build_versions.minSdk
         targetSdkVersion build_versions.targetSdk
         versionCode app_version.versionCode
@@ -34,6 +33,6 @@ dependencies {
     implementation deps.support.constraintlayout
 
     implementation deps.easypermissions
-
-    implementation project(':lib')
+    //implementation 'com.github.gyymz1993:ZXingLite:v1.0.0'
+    api project(':lib')
 }
