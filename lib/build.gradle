@@ -1,5 +1,6 @@
 apply plugin: 'com.android.library'
-apply from: 'bintray.gradle'
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.gyymz1993'
 
 android {
     compileSdkVersion build_versions.compileSdk
@@ -27,10 +28,6 @@ android {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    testImplementation deps.test.junit
-    androidTestImplementation deps.test.runner
-    androidTestImplementation deps.test.espresso
-
     compileOnly deps.support.appcompat
     api deps.zxing
 }
