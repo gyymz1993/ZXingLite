@@ -38,15 +38,14 @@ ZXingLite for Android 是ZXing的精简版，基于ZXing库优化扫码和生成
 ### Maven：
 ```maven
 <dependency>
-  <groupId>com.king.zxing</groupId>
-  <artifactId>zxing-lite</artifactId>
-  <version>1.0.5</version>
-  <type>pom</type>
+	    <groupId>com.github.gyymz1993</groupId>
+	    <artifactId>ZXingLite</artifactId>
+	    <version>v1.0.0</version>
 </dependency>
 ```
 ### Gradle:
 ```gradle
-implementation 'com.king.zxing:zxing-lite:1.0.5'
+implementation 'com.github.gyymz1993:ZXingLite:v1.0.0'
 ```
 ### Lvy:
 ```lvy
