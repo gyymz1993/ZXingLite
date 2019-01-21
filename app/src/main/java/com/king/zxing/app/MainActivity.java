@@ -30,8 +30,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.google.zxing.DecodeHintType;
-import com.google.zxing.common.StringUtils;
+
 import com.king.zxing.CaptureActivity;
 import com.king.zxing.Intents;
 import com.king.zxing.app.util.UriUtils;

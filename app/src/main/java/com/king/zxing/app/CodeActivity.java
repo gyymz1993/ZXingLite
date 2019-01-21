@@ -24,7 +24,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.google.zxing.BarcodeFormat;
+
 import com.king.zxing.util.CodeUtils;
 
 /**
@@ -69,9 +69,9 @@ public class CodeActivity extends AppCompatActivity {
      */
     private void createBarCode(String content){
         //生成条形码最好放子线程生成防止阻塞UI，这里只是演示
-        Bitmap bitmap = CodeUtils.createBarCode(content, BarcodeFormat.CODE_128,800,200,null,true);
+       // Bitmap bitmap = CodeUtils.createBarCode(content, BarcodeFormat.CODE_128,800,200,null,true);
         //显示条形码
-        ivCode.setImageBitmap(bitmap);
+       // ivCode.setImageBitmap(bitmap);
     }
 
 

@@ -66,7 +66,7 @@ allprojects {
 ## 引入的库：
 ```gradle
 compileOnly 'com.android.support:appcompat-v7:27.1.1'
-api 'com.google.zxing:core:3.3.3'
+ api 'com.github.gyymz1993:ZXingLite:v1.0.1'
 ```
 
 ## 示例
